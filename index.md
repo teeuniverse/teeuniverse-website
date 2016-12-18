@@ -1,8 +1,5 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: default
 ---
 
 *TeeUniverse* is a free and open-source game offering powerful and robust support for playing online various gamemodes and playgrounds.
@@ -22,18 +19,15 @@ in conjunction with instructions for compiling it or binaries for getting starte
 
 ![Screenshot of TeeUniverse Editor](/images/screenshot.png){:width="100%"}
 
-Get in touch
-===================
+# Get in touch #
 
 * The GitHub project: [teeuniverse/teeuniverse](https://github.com/teeuniverse/teeuniverse)
 * The IRC Channel: [irc.quakenet.org#teeuniverse](https://webchat.quakenet.org/?randomnick=0&channels=teeuniverse&prompt=1)
 * The Forum thread: [TeeWorlds official forum](https://www.teeworlds.com/forum/viewtopic.php?id=11710)
 
-Version history
-===================
+# Version history #
 
-0.1.0
--------------------
+## 0.1.0 ##
 
 The first version of TeeUniverse.
 
@@ -41,11 +35,9 @@ The first version of TeeUniverse.
 * [Source code (zip)](https://github.com/teeuniverse/teeuniverse/archive/v0.1.0.zip)
 * [Source code (tar.gz)](https://github.com/teeuniverse/teeuniverse/archive/v0.1.0.tar.gz)
 
-Credits
-===================
+# Credits #
 
-TeeUniverse by necropotame
+* TeeUniverse: necropotame
+* Web site: necropotame and Socialdarwinist
+* Logo and images: android272 and necropotame
 
-Web site by necropotame and Socialdarwinist
-
-Logo by android272

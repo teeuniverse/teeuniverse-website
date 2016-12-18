@@ -41,6 +41,26 @@ body
 	background-position: center 0px;
 }
 
+#menu
+{
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 1px #282828;
+	border-bottom: none;
+	background-color: #282828;
+}
+
+#menu a
+{
+	color:#ffffff;
+	text-decoration:none;
+	border-right: solid 1px #282828;
+	display:inline-block;
+	padding: 5px;
+	background-color: #3A3A3A;
+}
+
 #main
 {
 	width: 800px;
@@ -52,10 +72,17 @@ body
 	padding-top: 15px;
 }
 
-h1
+.pageTitle
 {
 	border-bottom: solid 1px #282828;
 	font-size:160%;
+}
+
+h1
+{
+	border-bottom: solid 1px #282828;
+	font-size:140%;
+	font-weight:normal;
 }
 
 h2
@@ -63,6 +90,7 @@ h2
 	border-bottom: solid 1px #282828;
 	font-size:120%;
 	margin-left:20px;
+	font-weight:normal;
 }
 
 a
@@ -92,5 +120,9 @@ kbd
 <body>
 
 <div id="background">
+<div id="menu"><a href="{{site.url}}">Home</a><a href="{{site.url}}/downloads">Downloads</a><a href="{{site.url}}/doc">Documentation</a><a href="{{site.url}}/about">About</a>
+</div>
 <div id="main">
-
+{% if page.title != nil %}
+<div class="pageTitle">{{page.title}}</div>
+{% endif %}
