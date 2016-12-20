@@ -25,19 +25,3 @@ in conjunction with instructions for compiling it or binaries for getting starte
 * The IRC Channel: [irc.quakenet.org#teeuniverse](https://webchat.quakenet.org/?randomnick=0&channels=teeuniverse&prompt=1)
 * The Forum thread: [TeeWorlds official forum](https://www.teeworlds.com/forum/viewtopic.php?id=11710)
 
-# Version history #
-
-## 0.1.0 ##
-
-The first version of TeeUniverse.
-
-* [Linux 64 binaries](https://github.com/teeuniverse/teeuniverse/releases/download/v0.1.0/teeuniverse-0.1-linux_x86_64.tar.gz)
-* [Source code (zip)](https://github.com/teeuniverse/teeuniverse/archive/v0.1.0.zip)
-* [Source code (tar.gz)](https://github.com/teeuniverse/teeuniverse/archive/v0.1.0.tar.gz)
-
-# Credits #
-
-* TeeUniverse: necropotame
-* Web site: necropotame and Socialdarwinist
-* Logo and images: android272 and necropotame
-
