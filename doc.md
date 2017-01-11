@@ -11,4 +11,5 @@ permalink: /doc/
 ## Compilation ##
 
 - [Compilation instruction for Ubuntu]({% link doc_compilation_ubuntu.md %})
+- [Compilation instruction for OSX]({% link doc_compilation_osx.md %})
 - [Compilation instruction for Windows]({% link doc_compilation_windows.md %})

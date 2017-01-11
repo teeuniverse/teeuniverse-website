@@ -15,9 +15,7 @@ You can start off to make your vanilla, OpenFNG or InfClass maps right in the ed
 and enjoy its features such as intuitive quad manipulation,
 undo with Ctrl+Z or user-friendly color chooser.
 The whole code is obtainable on the Github repository,
-in conjunction with instructions for compiling it or binaries for getting started quickly. 
-
-![Screenshot of TeeUniverse Editor](/images/screenshot.png){:width="100%"}
+in conjunction with instructions for compiling it or binaries for getting started quickly.
 
 # Get in touch #
 
@@ -25,3 +23,4 @@ in conjunction with instructions for compiling it or binaries for getting starte
 * The IRC Channel: [irc.quakenet.org#teeuniverse](https://webchat.quakenet.org/?randomnick=0&channels=teeuniverse&prompt=1)
 * The Forum thread: [TeeWorlds official forum](https://www.teeworlds.com/forum/viewtopic.php?id=11710)
 
+![Screenshot of TeeUniverse Editor](/images/teeuniverse_editor_0.2.0.png){:width="100%"}

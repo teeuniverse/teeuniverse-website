@@ -37,9 +37,7 @@ Click on "Browse Source..." and select the TeeUniverse directory.
 
 Click on "Browse Build..." and select the TeeUniverse directory.
 
-Click on "Add Entry", fill the "Name" field with "CMAKE_BUILD_TYPE", the "Type" field with "STRING" and the "Value" field with "Release". Click on "OK"
-
-Click on "Add Entry" again, fill the "Name" field with "WITHOUT_HARFBUZZ", the "Type" field with "BOOL", keep the "Value" field empty. Click on "OK"
+Click on "Add Entry", fill the "Name" field with "WITHOUT_HARFBUZZ", the "Type" field with "BOOL", keep the "Value" field empty. Click on "OK"
 
 Click on "Configure". check that "MinGW Makefiles" is selected and click on "Finish". Other generators maybe be possible to use, but has not been tested yet.
 
@@ -65,5 +63,6 @@ mingw32-make
 
 Type the following command to execute TeeUniverse editor:
 ```
-bin\release\teeuniverse_editor.exe
+cd build\release\win
+teeuniverse_editor.exe
 ```

@@ -22,12 +22,12 @@ cd teeuniverse
 
 Compile the project:
 ```
-cmake -DCMAKE_BUILD_TYPE=Release .
+cmake .
 make
-sudo make install
 ```
 
 Execute the TeeUniverse editor:
 ```
-teeuniverse_editor
+cd ./build/release/linux
+./teeuniverse_editor
 ```
