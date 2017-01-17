@@ -23,4 +23,4 @@ in conjunction with instructions for compiling it or binaries for getting starte
 * The IRC Channel: [irc.quakenet.org#teeuniverse](https://webchat.quakenet.org/?randomnick=0&channels=teeuniverse&prompt=1)
 * The Forum thread: [TeeWorlds official forum](https://www.teeworlds.com/forum/viewtopic.php?id=11710)
 
-![Screenshot of TeeUniverse Editor](/images/teeuniverse_editor_0.2.0.png){:width="100%"}
+![Screenshot of TeeUniverse Editor](/images/teeuniverse_editor_0.2.1.png){:width="100%"}
