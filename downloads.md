@@ -4,6 +4,40 @@ title: Downloads
 permalink: /downloads/
 ---
 
+# TeeUniverse 0.2.1 (Latest Release) #
+
+* [Linux 64-bit binaries](https://github.com/teeuniverse/teeuniverse/releases/download/v0.2.1/teeuniverse-0.2.1-linux_x86.tar.gz)
+* [Linux 64-bit binaries](https://github.com/teeuniverse/teeuniverse/releases/download/v0.2.1/teeuniverse-0.2.1-linux_x86_64.tar.gz)
+* Windows 32-bit binaries
+* [Source code (zip)](https://github.com/teeuniverse/teeuniverse/archive/v0.2.1.zip)
+* [Source code (tar.gz)](https://github.com/teeuniverse/teeuniverse/archive/v0.2.1.tar.gz)
+
+## Change Log ##
+
+### Added ### 
+- Images can be replaced and exported
+- Eraser tool for images
+- Ability to change the group of a layer, using layer ordering or a dedicated button
+- Ability to move a group in background/foreground using group ordering
+- Button to duplicate groups, entity layers, zone layers and other map layers
+- Button to set the zoom to 1:1
+- Entry box to display and set the zoom factor
+- Option to keep entities, quads and vertices align with the grid during translation
+- Creation of quads when no images are defined in the layer
+
+### Changed ### 
+- Path creator tool create corner vertices by default
+- Vertex smooth type is now visible directly in the list of vertices
+- Updated infclass package
+
+### Fixed ### 
+- List of quads and entities is not updated after using the stamp tool
+- Two Bezier controllers displayed on end points
+- Two assets can have the same name, leading to corrupted TUP file
+- Delete a layer in a map change the current edited element to none, leading to an empty view
+- Incoherent behaviour of the right click in the asset list
+- Mouse click in the map display settings pass through the popup window
+
 # TeeUniverse 0.2.0 (Latest Release) #
 
 * [Linux 32-bit binaries](https://github.com/teeuniverse/teeuniverse/releases/download/v0.2.0/teeuniverse-0.2.0-linux_x86.tar.gz)
@@ -37,8 +71,8 @@ permalink: /downloads/
 ### Changed ### 
 - Bigger toolbar in the view
 - New icons for tools in the view
-- Better appearence for focused boxes
-- Better appearence for separators
+- Better appearance for focused boxes
+- Better appearance for separators
 
 ### Removed ###
 - Import/Export in the old InfClass map format

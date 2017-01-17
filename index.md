@@ -12,7 +12,7 @@ The project is subdivided into three parts:
 the editor, the game client and the server.
 At the time of this being written, only the editor is available to be tried out.
 You can start off to make your vanilla, OpenFNG or InfClass maps right in the editor
-and enjoy its features such as intuitive quad manipulation,
+and enjoy its features such as intuitive quad manipulation, Bézier curves,
 undo with Ctrl+Z or user-friendly color chooser.
 The whole code is obtainable on the Github repository,
 in conjunction with instructions for compiling it or binaries for getting started quickly.
