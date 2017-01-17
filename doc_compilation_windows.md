@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Compilation instruction for Windows
-permalink: /doc/compilation/windows
+permalink: /doc/compilation/windows/
 ---
 
 This page describes how to compile TeeUniverse on Windows

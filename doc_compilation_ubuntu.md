@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Compilation instruction for Ubuntu
-permalink: /doc/compilation/ubuntu
+permalink: /doc/compilation/ubuntu/
 ---
 
 This page describes how to compile TeeUniverse on Ubuntu 16.04

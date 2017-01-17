@@ -1,7 +1,7 @@
 ---
 layout: default
 title: TeeUniverse Portable Map Specification
-permalink: /doc/specification/ptum
+permalink: /doc/specification/ptum/
 ---
 
 TeeUniverse Portable Maps (PTUM) are classical TeeWorlds maps that contains extended informations for mods.

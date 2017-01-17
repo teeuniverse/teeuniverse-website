@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Compilation instruction for OSX
-permalink: /doc/compilation/osx
+permalink: /doc/compilation/osx/
 ---
 
 This page describes how to compile TeeUniverse on OSX
