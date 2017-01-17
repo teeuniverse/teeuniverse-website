@@ -6,8 +6,9 @@ permalink: /downloads/
 
 # TeeUniverse 0.2.0 (Latest Release) #
 
+* [Linux 32-bit binaries](https://github.com/teeuniverse/teeuniverse/releases/download/v0.2.0/teeuniverse-0.2.0-linux_x86.tar.gz)
 * [Linux 64-bit binaries](https://github.com/teeuniverse/teeuniverse/releases/download/v0.2.0/teeuniverse-0.2.0-linux_x86_64.tar.gz)
-* [Windows 32-bit binaries](https://github.com/teeuniverse/teeuniverse/releases/download/v0.2.0/teeuniverse-0.2.0-windows_64.zip)
+* [Windows 32-bit binaries](https://github.com/teeuniverse/teeuniverse/releases/download/v0.2.0/teeuniverse-0.2.0-win32.zip)
 * [Source code (zip)](https://github.com/teeuniverse/teeuniverse/archive/v0.2.0.zip)
 * [Source code (tar.gz)](https://github.com/teeuniverse/teeuniverse/archive/v0.2.0.tar.gz)
 
