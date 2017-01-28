@@ -6,7 +6,7 @@ permalink: /downloads/
 
 # TeeUniverse 0.2.1 (Latest Release) #
 
-* [Linux 64-bit binaries](https://github.com/teeuniverse/teeuniverse/releases/download/v0.2.1/teeuniverse-0.2.1-linux_x86.tar.gz)
+* [Linux 32-bit binaries](https://github.com/teeuniverse/teeuniverse/releases/download/v0.2.1/teeuniverse-0.2.1-linux_x86.tar.gz)
 * [Linux 64-bit binaries](https://github.com/teeuniverse/teeuniverse/releases/download/v0.2.1/teeuniverse-0.2.1-linux_x86_64.tar.gz)
 * [Windows 32-bit binaries](https://github.com/teeuniverse/teeuniverse/releases/download/v0.2.1/teeuniverse-0.2.1-win32.zip)
 * [Source code (zip)](https://github.com/teeuniverse/teeuniverse/archive/v0.2.1.zip)
@@ -38,7 +38,7 @@ permalink: /downloads/
 - Incoherent behaviour of the right click in the asset list
 - Mouse click in the map display settings pass through the popup window
 
-# TeeUniverse 0.2.0 (Latest Release) #
+# TeeUniverse 0.2.0 #
 
 * [Linux 32-bit binaries](https://github.com/teeuniverse/teeuniverse/releases/download/v0.2.0/teeuniverse-0.2.0-linux_x86.tar.gz)
 * [Linux 64-bit binaries](https://github.com/teeuniverse/teeuniverse/releases/download/v0.2.0/teeuniverse-0.2.0-linux_x86_64.tar.gz)
