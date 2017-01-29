@@ -12,18 +12,31 @@ From the executables in a TeeUniverse build, teeuniverse_editor is the one for t
 This page aims to describe as indubitable as feasible the operations that are most likely necessary in mapping.
 
 # Opening a map #
-## Opening a received map ##
+
+To store maps, TeeUniverse use its own format, called “TeeUniverse Package”, or simply “package”.
+You may encounter these packages in your file system under the extension “.tup” in their filename.
+TeeUniverse editor is also able to import and export classical TeeWorlds maps, including those of mods as DDNet, InfClass or Ninslash.
+To get a full experience with the editor, it is strongly recommended to always keep the last version of your work saved as a package,
+and export your map as a TeeWorlds map only to distribute it or to deploy it on your servers.
+
+## Opening a TeeWorlds map ##
 
 To get a quicker overview of how to map with TeeUniverse, just import a Teeworlds map via the “File” entry in the menu bar at the top.
-You can open dm1 to start simply, or you open the <a href="https://github.com/necropotame/teeworlds-infclass/blob/master/data/packages/infc_skull.tup" title="Infection Class Skull">InfClass Skull map</a> to see InfClass features used you probably will need, or you import a suggested <a href="https://github.com/ddnet/ddnet-maps/blob/master/types/novice/maps/Kobra%204.map" title="Kobra 4">DDNet map</a> or <a href="https://github.com/35niavlys/teeworlds-fng-maps/blob/master/data/maps/AlphaB/fng_AB_3.map" title="FNG AB 3 by AlphaB">OpenFNG map</a>.
+In the import dialog, you can select one of the default TeeWorlds maps distributed with TeeUniverse.
+Please note that you can also access directly to all your existing TeeWorlds maps by choosing the directory “TeeWorlds maps” in the list of directory.
 
-Take care about the format and targeted modification of the map you import.
-For <a href="https://github.com/necropotame/teeworlds-infclass/tree/master/data/packages" title="Collected TeeUniverse packages of InfClass maps">InfClass maps</a>, it is preferred if you import TeeUniverse Packages via “Open Package“ which have the file ending “.tup”, and for vanilla maps or maps of other Teeworlds mods such as, but not limited to <a href="https://github.com/ddnet/ddnet-maps/tree/master/types" title="DDNet map collection">DDNet maps</a>, <a href="https://github.com/35niavlys/teeworlds-fng-maps/tree/master/data/maps" title="OpenFNG map collection">OpenFNG maps</a>, and <a href="https://github.com/Siile/Ninslash/tree/master/data/maps" title="The primary Ninslash maps">Ninslash maps</a>, make sure to have specified the target mod type opening the maps via “Import TeeWorlds Map”.
+Take care about the “Compatibility mode” option to give a hint to TeeUniverse about the kind of flavour of TeeWorlds the map relies on.
+If you don't precise correctly this option, you may obtain wrong zones and entities in your editor.
+
+## Opening a TeeUniverse map ##
+
+To open a TeeUniverse map, open the package that contains it via the “File” entry in the menu bar.
+You will obtain the map in the exact state the author leaves it, including the position of the camera, the visibility attached to each layer, and the type of mod for which the map was made.
 
 ## Mapping from scratch ##
 
-To make an utterly new map, left-click “New Package” in the “File” menu and then “New Map” in the “Edit Menu” to insert an empty map into the package.
-TeeUniverse packages can contain multiple maps, too.
+To make an utterly new map, left-click “New Package” in the “File” menu and fill the fields “name” and “author”.
+Then, add a new map in your package using the menu “Edit” in the menu bar.
 
 # Filtering visible parts of a map #
 
@@ -35,48 +48,53 @@ Regarding the ranking of different layers, the layers in a division shown lower 
 
 # Zones #
 
-## Zones layers in general ##
-
 In the zone division, the first division, you add basic game physics and the zones needed by modifications.
-You initiate zones by right-clicking “map” above the four zones in the asset list, left-clicking “add zone layer” in the context menu appearing, left-clicking the new zone layer in the asset list and assigning a zone type to the zone layer in the asset inspector in the right panel.
-To use zone types of modifications, you have to have imported the packages that contain them, which is supposed to happen automatically when you open a ready-for-playing map but has to be done manually when you intend to create a map from scratch for a modification.
+You create zones by right-clicking “map” above the four divisions in the asset list, left-clicking “Add zone tile layer” or “Add zone object layer” in the context menu appearing,
+left-clicking the new zone layer in the asset list and assigning a zone type to the zone layer in the asset inspector in the right panel.
+To use zone types of modifications, you have to have opened the packages that contain them, which is supposed to happen automatically when you open a ready-for-playing map but has to be done manually when you intend to create a map from scratch.
 The packages that contain the zone layers for the here named modifications are included in the ”Default packages” collection selectable in the “Open Package” file dialog.
+TeeUniverse is shipped by default with the packages “teeworlds”, “ddnet”, “infclass”, “openfng”, “ninslash” and “sport”, each of them containing a set of ready-to-use zone types.
 
-## The common zone type ##
+## TeeWorlds zone type ##
 
 There is a game layer common to all Teeworlds-compatible maps realized by the “teeworlds” zone type included in the “teeworlds” package of TeeUniverse.
-You create one by adding a zone layer – preferably named “teeworlds” in the asset inspector – to which you assign the zone type “teeworlds” from the “teeworlds” package included in TeeUniverse at the asset inspector.
+You create one by adding a zone layer – preferably named “teeworlds” in the asset inspector – to which you assign the zone type “teeworlds” from the “teeworlds” package, at the asset inspector.
 This layer is needed on every Teeworlds map, for therewith you set what shall be ground and what shall be air.
+If you created a new map, of if you imported an existing one, this zone should be already present in your map.
 
 ## InfClass zone types ##
 
-For new InfClass maps add a layer “damage” to which you assign the zone type “icDamage” from the InfClass package included in TeeUniverse and a zone layer with the zone type “icTele” from the same package if needed.
-The former is used for the infected area, the latter possibly needed to define areas where a witch cannot let spawn infected.
+For new InfClass maps add a layer “damage” to which you assign the zone type “icDamage” from the “infclass” package and a zone layer with the zone type “icTele” from the same package if needed.
+The former is used for the infected area and death zones, the latter possibly needed to define areas where a witch cannot let spawn infected.
 
-## The OpenFNG zone type ##
+## OpenFNG zone type ##
 
-OpenFNG maps contain a zone layer with the zone type “openfng” from the OpenFNG package included in TeeUniverse. You set the shrines at this layer.
+OpenFNG and FNG2 maps contain a zone layer with the zone type “openfng” from the “openfng” package. You set the shrines at this layer.
 
 ## DDNet zones ##
 
-DDNet maps have various zone types that are included in the “ddnet” package of TeeUniverse.
+DDNet maps have various zone types that are included in the “ddnet” package of TeeUniverse, such as front layer, tele layer and switch layer.
+Please note that the speedup layer is not yet supported by TeeUniverse.
 
-## The Ninslash zone type ##
+## Ninslash zone type ##
 
-Ninslash maps contain a zone layer with the zone type “ninslash” from the Ninslash package included in TeeUniverse, but do not make use of a “teeworlds” zone type.
+Ninslash maps contain a zone layer with the zone type “ninslash” from the “ninslash” package, but do not make use of a “teeworlds” zone type.
 It contains the physics by which Ninslash stands out from the flock of Teeworlds mods, being incompatible with legacy Teeworlds clients.
 
-## Adding zone tiles using the stamp tool ##
+## Create zone tiles using the stamp tool ##
 
-To impose tiles inside a zone layer, have selected the zone layer they have to be related to in the asset list, select the stamp tool in the toolbar, right-click to choose the intended tile type and left-click to set the tile.
-You can move around the map holding the left mouse button, but after this it is more convenient to right-click twice into the map view to sheathe the stamp tool and pick multiple tiles by drawing your left mouse button over an area of tiles which you then reuse by using your left mouse button.
+To impose tiles inside a zone tile layer, have selected the zone layer they have to be related to in the asset list, select the stamp tool in the toolbar,
+right-click to choose the intended tile type and left-click to set the tile.
+Pressing again right-click will clean your stamp, and pressing a third time right-click will open again the list of available tiles.
+Alternatively, you can clean your stamp using right-click and select a part of the map that is already tiled to copy it somewhere else.
 
 # Entities #
 
-The second division contains the spawn points and pickups.
+The second division contains the spawn points, pickups and all elements of your map that can be represented by a unique point.
 You add entity layers to it like you add zone layers.
 When having selected an entity layer in the asset list, right-click into the map view to select an entity and left-click to set it.
 If you are up to set pickups, make sure that you have selected “align the stamp to the grid” in the toolbar to posit the entities accurately.
+Most of mods assume that entities are aligned to the grid.
 
 # Background layers #
 
