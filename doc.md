@@ -4,7 +4,9 @@ title: Documentation
 permalink: /doc/
 ---
 
-# Editor #
+# Guidance #
+
+- [Quick walkthrough]({% link doc_walkthrough.md %})
 
 # Source code #
 
