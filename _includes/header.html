@@ -5,19 +5,19 @@
 <head>
 
 <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
-<meta name="description" content="A Teeworlds-based FOSS game comprising a modification-friendly client, a server and a WYSIWYG map editor" />
+{% if page.vanilladescription != nil %}<meta name="description" content="{{page.vanilladescription}}" />{% endif %}
 <link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
 <link rel="profile" href="http://dublincore.org/documents/2008/08/04/dc-html/" />
 <meta name="dcterms.format" content="application/xhtml+xml" />
-<meta name="dcterms.creator" content="necropotame; Socialdarwinist; android272" />
+{% if page.creator != nil %}<meta name="dcterms.creator" content="{{page.creator}}" />{% endif %}
 <meta name="dcterms.publisher" content="necropotame" />
-<meta name="dcterms.language" content="en" />
-<meta name="dcterms.coverage" content="World" />
-<meta name="dcterms.subject" content="TeeUniverse; TeeUniverses; Teeworlds client; Teeworlds server; Teeworlds map editor; WYSIWYG; moddable; open-source game; map editor; Infection Class; InfClass; OpenFNG" />
-<meta name="dcterms.title" content="TeeUniverse – a Teeworlds-based FOSS game comprising client, server and WYSIWYG map editor" />
-<meta name="dcterms.type" content="Text" />
-<meta name="dcterms.description" content="Official website of the modification-friendly, free and open-source multiplayer game TeeUniverse" />
-<title>TeeUniverse – a Teeworlds-based FOSS game comprising client, server and WYSIWYG map editor</title>
+<meta name="dcterms.language" content="{% if page.language == nil %}en{% endif %}{% if page.language != nil %}{{page.language}}{% endif %}" />
+<meta name="dcterms.coverage" content="{% if page.coverage == nil %}World{% endif %}{% if page.coverage != nil %}{{page.coverage}}{% endif %}" />
+<meta name="dcterms.subject" content="{% if page.subject == nil %}TeeUniverse; TeeUniverses; Teeworlds client; Teeworlds server; Teeworlds map editor; WYSIWYG; moddable; open-source game; map editor; Infection Class; InfClass; OpenFNG; Ninslash; DDNet{% endif %}{% if page.subject != nil %}{{page.subject}}{% endif %}" />
+<meta name="dcterms.title" content="TeeUniverse{% if page.title != nil %} – {{page.title}}{% endif %}" />
+<meta name="dcterms.type" content="{% if page.type == nil %}Text{% endif %}{% if page.type != nil %}{{page.type}}{% endif %}" />
+{% if page.contentdescription != nil %}<meta name="dcterms.description" content="{{page.contentdescription}}" />{% endif %}
+<title{% if page.language != nil %} xml:lang="{{page.language}}"{% endif %}>TeeUniverse{% if page.title != nil %} – {{page.title}}{% endif %}</title>
 
 <style type="text/css" media="screen">
 body
@@ -141,10 +141,10 @@ code
 </head>
 
 
-<body>
+<body{% if page.language != nil %} xml:lang="{{page.language}}"{% endif %}>
 
 <div id="background">
-<div id="menu"><a href="{{site.url}}">Home</a><a href="{{site.url}}/downloads">Downloads</a><a href="{{site.url}}/doc">Documentation</a><a href="{{site.url}}/about">About</a>
+<div id="menu" xml:lang="en"><a href="{{site.url}}">Home</a><a href="{{site.url}}/downloads">Downloads</a><a href="{{site.url}}/doc">Documentation</a><a href="{{site.url}}/about">About</a>
 </div>
 <div id="main">
 {% if page.title != nil %}
