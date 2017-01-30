@@ -7,9 +7,9 @@ creator: necropotame
 contentdescription: List of the TeeUniverse releases with version history, including links to compressed distributions of their source codes and their binaries
 ---
 
-{% assign sortedReleases = site.release | sort: 'version' | reverse %}
+{% assign sortedReleases = site.release | sort: 'title' | reverse %}
 {% assign latestRelease = sortedReleases.first %}
-# TeeUniverse {{ latestRelease.version }} (Latest Release) #
+# {{ latestRelease.title }} (Latest Release) #
 {% markdown %}
 {{ latestRelease.content }}
 {% endmarkdown %}
@@ -24,4 +24,4 @@ contentdescription: List of the TeeUniverse releases with version history, inclu
 # Older releases #
 
 {% for r in sortedReleases %}
-{% if forloop.first == false %}- [TeeUniverse {{ r.version }}]({{ site.url }}{{ r.url }}){% endif %}{% endfor %}
+{% if forloop.first == false %}- [{{ r.title }}]({{ site.url }}{{ r.url }}){% endif %}{% endfor %}
