@@ -7,11 +7,6 @@ creator: necropotame
 contentdescription: List of the TeeUniverse releases with version history, including links to compressed distributions of their source codes and their binaries
 ---
 
-# TeeUniverse cutting edge (Experimental)
-
-* [Source code (zip)](https://github.com/teeuniverse/teeuniverse/archive/master.zip)
-* [Source code (tar.gz)](https://github.com/teeuniverse/teeuniverse/archive/master.tar.gz)
-
 # TeeUniverse 0.2.1 (Latest Release) #
 
 * [Linux 32-bit binaries](https://github.com/teeuniverse/teeuniverse/releases/download/v0.2.1/teeuniverse-0.2.1-linux_x86.tar.gz)
@@ -45,6 +40,11 @@ contentdescription: List of the TeeUniverse releases with version history, inclu
 - Delete a layer in a map change the current edited element to none, leading to an empty view
 - Incoherent behaviour of the right click in the asset list
 - Mouse click in the map display settings pass through the popup window
+
+# TeeUniverse cutting edge (Experimental)
+
+* [Source code (zip)](https://github.com/teeuniverse/teeuniverse/archive/master.zip)
+* [Source code (tar.gz)](https://github.com/teeuniverse/teeuniverse/archive/master.tar.gz)
 
 # TeeUniverse 0.2.0 #
 
