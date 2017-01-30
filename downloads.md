@@ -2,6 +2,9 @@
 layout: default
 title: Downloads
 permalink: /downloads/
+type: dataset
+creator: necropotame
+contentdescription: List of the TeeUniverse releases with version history, including links to compressed distributions of their source codes and their binaries
 ---
 
 # TeeUniverse 0.2.1 (Latest Release) #
@@ -37,6 +40,13 @@ permalink: /downloads/
 - Delete a layer in a map change the current edited element to none, leading to an empty view
 - Incoherent behaviour of the right click in the asset list
 - Mouse click in the map display settings pass through the popup window
+
+{% comment %} 
+# TeeUniverse cutting edge (Experimental)
+
+* [Source code (zip)](https://github.com/teeuniverse/teeuniverse/archive/master.zip)
+* [Source code (tar.gz)](https://github.com/teeuniverse/teeuniverse/archive/master.tar.gz)
+{% endcomment %}
 
 # TeeUniverse 0.2.0 #
 

@@ -2,6 +2,9 @@
 layout: default
 title: Compilation instruction for OSX
 permalink: /doc/compilation/osx/
+creator: necropotame
+contentdescription: Help page instructing to compile TeeUniverse on an OSX operating system
+subject: compilation of TeeUniverse; compilation on OS X; compilation on macOS; compilation; compilation with CMake
 ---
 
 This page describes how to compile TeeUniverse on OSX
