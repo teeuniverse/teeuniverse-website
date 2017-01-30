@@ -10,7 +10,7 @@ contentdescription: List of the TeeUniverse releases with version history, inclu
 # TeeUniverse cutting edge (Experimental)
 
 * [Source code (zip)](https://github.com/teeuniverse/teeuniverse/archive/master.zip)
-* [Source code (zip)](https://github.com/teeuniverse/teeuniverse/archive/master.tar.gz)
+* [Source code (tar.gz)](https://github.com/teeuniverse/teeuniverse/archive/master.tar.gz)
 
 # TeeUniverse 0.2.1 (Latest Release) #
 
