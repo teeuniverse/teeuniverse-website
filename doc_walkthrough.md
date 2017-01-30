@@ -6,7 +6,7 @@ permalink: /doc/walkthrough/
 
 The following page is intended to contain instructions for familiarizing users with the interfaces of the various components of TeeUniverse.
 
-# Basic walkthrough through the map editor #
+# Opening TeeUniverse editor #
 
 From the executables in a TeeUniverse build, teeuniverse_editor is the one for the map editor.
 This page aims to describe as indubitable as feasible the operations that are most likely necessary in mapping.
@@ -122,7 +122,7 @@ The way you add layers to the foreground layer division is analogous to the way 
 
 Assuming usage of foreground layers to delineate tile-based physical boundaries of a map, the way you work here is mainly that you apply the stamp tool for tile layers wherever you have applied it for solid tiles, selecting a tile layer in the asset list, choosing a tile from its tileset image assigned to it in the asset inspector with a right click into the map view and applying it with left clicks, but quad layers are viable, too.
 
-## New images ##
+# New images #
 
 If you want to add images not included in TeeUniverse to be chosen as tilesets or elsehow, you have to add the images to the asset list from the “Edit” menu in the menu bar, by clicking “Import Image”, or you add map packages that contain the desired images, but in the latter case you have to make sure that you ship the dependency packages too if you intend sending the map to someone.
 When you add an image that you want to use as a tileset of a tile layer, you have to tick “Compatible with tiles” in the asset inspector of that image.
