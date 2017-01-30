@@ -6,7 +6,7 @@ permalink: /doc/
 
 # Guidance #
 
-- [Quick walkthrough]({% link doc_walkthrough.md %})
+- [Quick walkthrough through the editor]({% link doc_walkthrough.md %})
 
 # Source code #
 
