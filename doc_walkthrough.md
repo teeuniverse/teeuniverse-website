@@ -1,14 +1,17 @@
 ---
 layout: default
-title: Basic walkthrough through the map editor
+title: Basic walkthrough through map editing
 permalink: /doc/walkthrough/
+creator: Socialdarwinist; necropotame
+contentdescription: Walkthrough through the editor of TeeUniverse, aimed at beginner mappers
+subject: Teeworlds mapping; Ninslash mapping; InfClass mapping; OpenFNG mapping; DDNet mapping; map layer; tileset; Teeworlds tileset; quadrilateral graphics; quad;
 ---
 
-The following page is intended to contain instructions for familiarizing users with the interfaces of the various components of TeeUniverse.
+The following page is intended to contain instructions for familiarizing users with the interfaces of the various components of the TeeUniverse editor.
 
 # Opening TeeUniverse editor #
 
-From the executables in a TeeUniverse build, teeuniverse_editor is the one for the map editor.
+From the executables in a TeeUniverse build, teeuniverse_editor is the one for the editor.
 This page aims to describe as indubitable as feasible the operations that are most likely necessary in mapping.
 
 # Opening a map #

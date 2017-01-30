@@ -1,7 +1,10 @@
 ---
 layout: default
 title: Downloads
-permalink: /downloads2/
+permalink: /downloads/
+type: dataset
+creator: necropotame
+contentdescription: List of the TeeUniverse releases with version history, including links to compressed distributions of their source codes and their binaries
 ---
 
 {% assign sortedReleases = site.release | sort: 'version' | reverse %}
@@ -11,12 +14,14 @@ permalink: /downloads2/
 {{ latestRelease.content }}
 {% endmarkdown %}
 
-# Experimental version #
+
+# TeeUniverse cutting edge (Experimental) #
+
+* [Source code (zip)](https://github.com/teeuniverse/teeuniverse/archive/master.zip)
+* [Source code (tar.gz)](https://github.com/teeuniverse/teeuniverse/archive/master.tar.gz)
 
 
 # Older releases #
+
 {% for r in sortedReleases %}
-{% if forloop.first == false %}
-- [TeeUniverse {{ r.version }}]({{ site.url }}{{ r.url }})
-{% endif %}
-{% endfor %}
+{% if forloop.first == false %}- [TeeUniverse {{ r.version }}]({{ site.url }}{{ r.url }}){% endif %}{% endfor %}

@@ -1,5 +1,8 @@
 ---
 layout: default
+creator: necropotame; Socialdarwinist
+vanilladescription: A Teeworlds-compatible FOSS gaming environment comprising a modification-friendly client, a server and a WYSIWYG editor for maps and more
+contentdescription: Home page of the official website of the modification-friendly, free and open-source multiplayer gaming environment TeeUniverse
 ---
 
 *TeeUniverse* is a free and open-source game offering powerful and robust support for playing online various gamemodes and playgrounds.

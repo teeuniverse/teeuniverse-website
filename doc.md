@@ -2,11 +2,14 @@
 layout: default
 title: Documentation
 permalink: /doc/
+type: dataset
+creator: necropotame; Socialdarwinist
+contentdescription: Documentation page of TeeUniverses, linking to usage and compilation instructions and file format specifications
 ---
 
 # Guidance #
 
-- [Quick walkthrough]({% link doc_walkthrough.md %})
+- [Quick walkthrough through the editor]({% link doc_walkthrough.md %})
 
 # Source code #
 
