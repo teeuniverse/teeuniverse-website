@@ -2,6 +2,9 @@
 layout: default
 title: Compilation instruction for Ubuntu
 permalink: /doc/compilation/ubuntu/
+creator: necropotame
+contentdescription: Help page instructing to compile TeeUniverse on an Ubuntu operating system
+subject: Compilation of TeeUniverse; compilation on Ubuntu; compilation on Linux; compilation; compilation with CMake
 ---
 
 This page describes how to compile TeeUniverse on Ubuntu 16.04

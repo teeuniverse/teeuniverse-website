@@ -2,7 +2,15 @@
 layout: default
 title: Downloads
 permalink: /downloads/
+type: dataset
+creator: necropotame
+contentdescription: List of the TeeUniverse releases with version history, including links to compressed distributions of their source codes and their binaries
 ---
+
+# TeeUniverse cutting edge (Experimental)
+
+* [Source code (zip)](https://github.com/teeuniverse/teeuniverse/archive/master.zip)
+* [Source code (zip)](https://github.com/teeuniverse/teeuniverse/archive/master.tar.gz)
 
 # TeeUniverse 0.2.1 (Latest Release) #
 
