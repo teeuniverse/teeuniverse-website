@@ -28,24 +28,31 @@ body
 	background-image: url("{{site.url}}/images/background.png");
 	background-repeat: repeat;
 	margin: 0px;
-	padding: 0px;
+	padding: 0px;CSS box
 	background-attachment: fixed;
 	font-size:11pt;
 }
 
-#background
+#logocropper
 {
-	background-image: url("{{site.url}}/images/header.png");
-	background-repeat: no-repeat;
-	margin: 0px;
-	padding: 0px;
-	padding-top: 480px;
-	background-position: center 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	max-width: 1024px;
+	height: 460px;
+	overflow: hidden;
+}
+
+#logo
+{
+	max-width: 1024px;
+	height: 512px;
+	display: block;
 }
 
 #menu
 {
-	width: 850px;
+	max-width: 850px;
 	margin-left: auto;
 	margin-right: auto;
 	border: solid 1px #282828;
@@ -65,7 +72,7 @@ body
 
 #main
 {
-	width: 800px;
+	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 	border: solid 1px #282828;
@@ -137,6 +144,11 @@ code
 	display:block;
 	white-space: pre-wrap;
 }
+nav, header, footer, main
+{
+	display: block; /* superfluous code except for old browsers which do not know these block elements */
+}
+
 </style>
 
 </head>
@@ -144,10 +156,14 @@ code
 
 <body{% if page.language != nil %} xml:lang="{{page.language}}"{% endif %}>
 
-<div id="background">
-<div id="menu"{% if page.language != nil and page.language != "en" %} xml:lang="en"{% endif %}><a href="{{site.url}}">Home</a><a href="{{site.url}}/downloads">Downloads</a><a href="{{site.url}}/doc">Documentation</a><a href="{{site.url}}/about">About</a>
+<header id="header">
+<div id="logocropper">
+<img src="{{site.url}}/images/header.png" alt="TeeUniverse logo" id="logo" />
 </div>
-<div id="main">
+<nav id="menu"{% if page.language != nil and page.language != "en" %} xml:lang="en"{% endif %}><a href="{{site.url}}">Home</a><a href="{{site.url}}/downloads">Downloads</a><a href="{{site.url}}/doc">Documentation</a><a href="{{site.url}}/about">About</a>
+</nav>
+</header id="header">
+<main id="main">
 {% if page.title != nil %}
 <div class="pageTitle">{{page.title}}</div>
 {% endif %}
