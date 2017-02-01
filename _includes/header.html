@@ -28,7 +28,7 @@ body
 	background-image: url("{{site.url}}/images/background.png");
 	background-repeat: repeat;
 	margin: 0px;
-	padding: 0px;CSS box
+	padding: 0px;
 	background-attachment: fixed;
 	font-size:11pt;
 }
@@ -63,11 +63,23 @@ body
 #menu a
 {
 	color:#ffffff;
-	text-decoration:none;
-	border-right: solid 1px #282828;
-	display:inline-block;
+	text-decoration: none;
+	border-top: solid 0px #282828;
+	border-left: solid 3px #282828;
+	border-bottom: solid 3px #282828;
+	border-right: solid 0px #282828;
+	border-radius: 250% / 80%;
+	box-shadow: 1px 1.5px 0.2em #FAD520;
+	display: inline-block;
 	padding: 5px;
+	margin: 5px;
+	margin-top: 4px;
 	background-color: #3A3A3A;
+}
+
+#menu a:hover
+{
+	box-shadow: 1px 2px 0.35em #FCE252;
 }
 
 #main
@@ -129,6 +141,11 @@ a
 	color:#aaaaaa;
 }
 
+a:hover
+{
+	color:#FBEC6F;
+}
+
 #screenshot
 {
 	width: 100%;
@@ -160,7 +177,10 @@ nav, header, footer, main
 <div id="logocropper">
 <img src="{{site.url}}/images/header.png" alt="TeeUniverse logo" id="logo" />
 </div>
-<nav id="menu"{% if page.language != nil and page.language != "en" %} xml:lang="en"{% endif %}><a href="{{site.url}}/">Home</a><a href="{{site.url}}/downloads/">Downloads</a><a href="{{site.url}}/doc/">Documentation</a><a href="{{site.url}}/about/">About</a>
+<nav id="menu"{% if page.language != nil and page.language != "en" %} xml:lang="en"{% endif %}><a href="{{site.url}}/">Home</a>
+<a href="{{site.url}}/downloads/">Downloads</a>
+<a href="{{site.url}}/doc/">Documentation</a>
+<a href="{{site.url}}/about/">About</a>
 </nav>
 </header>
 <main id="main">
