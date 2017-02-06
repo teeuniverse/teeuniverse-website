@@ -1,6 +1,6 @@
 #!/bin/sh
 
-TUPINFO_BIN=~/Projects/teeuniverses/master-build/build/release/linux/tupinfo
+TUPINFO_BIN=tupinfo
 TMPFILE=tmp.txt
 
 mkdir -p _packages
