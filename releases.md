@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Downloads
-permalink: /downloads/
+title: Releases
+permalink: /releases/
 type: dataset
 creator: necropotame
 contentdescription: List of the TeeUniverse releases with version history, including links to compressed distributions of their source codes and their binaries

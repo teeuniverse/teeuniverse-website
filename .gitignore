@@ -3,3 +3,5 @@ Gemfile.lock
 Gemfile.lock~
 .jekyll-metadata
 .sass-cache
+_packages
+packages

@@ -12,6 +12,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - _scripts
 collections:
   release:
     output: true
+  packages:
+    output: false

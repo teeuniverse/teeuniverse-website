@@ -1,0 +1,46 @@
+---
+layout: default
+title: Packages
+permalink: /packages/
+type: dataset
+creator: necropotame
+contentdescription: List of packages, including maps, decorations, materials and mods
+---
+
+<h1>InfClass maps</h1>
+
+{% assign filteredPackages = site.packages | where: 'category','infc' | sort: 'title' %}
+{% for p in filteredPackages %}
+<div class="package" style="background-image:url({{ site.url }}/packages/{{ p.title }}.png);">
+	<div class="packageDescription">
+		<p><span class="packageTitle">{{ p.title }} {{ p.tup_version }}</span> (<a href="{{ site.url }}/packages/{{ p.title }}.tup">Download</a>)</p>
+{% if p.tup_author != blank %}
+		<p>Author: {{ p.tup_author }}</p>
+{% endif %}
+{% if p.tup_credits != "" %}
+		<p>Credits: {{ p.tup_credits }}</p>
+{% endif %}
+		<p>License: {{ p.tup_license }}</p>
+		
+	</div>
+</div>
+{% endfor %}
+
+<h1>Decorations</h1>
+
+{% assign filteredPackages = site.packages | where: 'category','env' | sort: 'title' %}
+{% for p in filteredPackages %}
+<div class="package" style="background-image:url({{ site.url }}/packages/{{ p.title }}.png);">
+	<div class="packageDescription">
+		<p><span class="packageTitle">{{ p.title }} {{ p.tup_version }}</span> (<a href="{{ site.url }}/packages/{{ p.title }}.tup">Download</a>)</p>
+{% if p.tup_author != blank %}
+		<p>Author: {{ p.tup_author }}</p>
+{% endif %}
+{% if p.tup_credits != "" %}
+		<p>Credits: {{ p.tup_credits }}</p>
+{% endif %}
+		<p>License: {{ p.tup_license }}</p>
+		
+	</div>
+</div>
+{% endfor %}
