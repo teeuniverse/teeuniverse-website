@@ -71,7 +71,7 @@ body
 	display: inline-block;
 	padding: 5px;
 	padding-top: 2px;
-	margin-left: 10px;
+	margin-left: 5px;
 	background-color: #3A3A3A;
 	background: linear-gradient(#282828, #3A3A3A);
 }
@@ -178,7 +178,10 @@ nav, header, footer, main
 <img src="{{site.url}}/images/header.png" alt="TeeUniverse logo" id="logo" />
 </div>
 <nav id="menu"{% if page.language != nil and page.language != "en" %} xml:lang="en"{% endif %}>
-<a href="{{site.url}}/">Home</a><a href="{{site.url}}/downloads/">Downloads</a><a href="{{site.url}}/doc/">Documentation</a><a href="{{site.url}}/about/">About</a>
+<a href="{{site.url}}/">Home</a>
+<a href="{{site.url}}/downloads/">Downloads</a>
+<a href="{{site.url}}/doc/">Documentation</a>
+<a href="{{site.url}}/about/">About</a>
 </nav>
 </header>
 <main id="main">
