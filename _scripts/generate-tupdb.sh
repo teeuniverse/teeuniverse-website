@@ -1,6 +1,6 @@
 #!/bin/sh
 
-TUPINFO_BIN=tupinfo
+TUPINFO_BIN=$1
 TMPFILE=tmp.txt
 
 mkdir -p _packages
