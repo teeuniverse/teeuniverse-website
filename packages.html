@@ -13,7 +13,7 @@ contentdescription: List of TeeUniverse packages, including maps, decorations, m
 {% for p in filteredPackages %}
 <div class="package" style="background-image:url({{ site.url }}/packages/{{ p.title }}.png);">
 	<div class="packageDescription">
-		<p><a class="packageTitle" href="{{ site.url }}/packages/{{ p.title }}.tup">{{ p.title }} {{ p.tup_version }} ⬇</a></p>
+		<p><a class="packageTitle" href="{{ site.url }}/packages/{{ p.title }}.tup">{{ p.title }} {{ p.tup_version }}</a></p>
 {% if p.tup_author != blank %}
 		<p>Author: {{ p.tup_author }}</p>
 {% endif %}
@@ -32,7 +32,7 @@ contentdescription: List of TeeUniverse packages, including maps, decorations, m
 {% for p in filteredPackages %}
 <div class="package" style="background-image:url({{ site.url }}/packages/{{ p.title }}.png);">
 	<div class="packageDescription">
-		<p><a class="packageTitle" href="{{ site.url }}/packages/{{ p.title }}.tup">{{ p.title }} {{ p.tup_version }} ⬇</a></p>
+		<p><a class="packageTitle" href="{{ site.url }}/packages/{{ p.title }}.tup">{{ p.title }} {{ p.tup_version }}</a></p>
 {% if p.tup_author != blank %}
 		<p>Author: {{ p.tup_author }}</p>
 {% endif %}
