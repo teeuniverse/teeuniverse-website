@@ -4,7 +4,7 @@ title: Packages
 permalink: /packages/
 type: dataset
 creator: necropotame
-contentdescription: List of packages, including maps, decorations, materials and mods
+contentdescription: List of TeeUniverse packages, including maps, decorations, materials and mods, each with download link
 ---
 
 <h1>InfClass maps</h1>
@@ -13,7 +13,7 @@ contentdescription: List of packages, including maps, decorations, materials and
 {% for p in filteredPackages %}
 <div class="package" style="background-image:url({{ site.url }}/packages/{{ p.title }}.png);">
 	<div class="packageDescription">
-		<p><span class="packageTitle">{{ p.title }} {{ p.tup_version }}</span> (<a href="{{ site.url }}/packages/{{ p.title }}.tup">Download</a>)</p>
+		<p><a class="packageTitle" href="{{ site.url }}/packages/{{ p.title }}.tup">{{ p.title }} {{ p.tup_version }}</a></p>
 {% if p.tup_author != blank %}
 		<p>Author: {{ p.tup_author }}</p>
 {% endif %}
@@ -32,7 +32,7 @@ contentdescription: List of packages, including maps, decorations, materials and
 {% for p in filteredPackages %}
 <div class="package" style="background-image:url({{ site.url }}/packages/{{ p.title }}.png);">
 	<div class="packageDescription">
-		<p><span class="packageTitle">{{ p.title }} {{ p.tup_version }}</span> (<a href="{{ site.url }}/packages/{{ p.title }}.tup">Download</a>)</p>
+		<p><a class="packageTitle" href="{{ site.url }}/packages/{{ p.title }}.tup">{{ p.title }} {{ p.tup_version }}</a></p>
 {% if p.tup_author != blank %}
 		<p>Author: {{ p.tup_author }}</p>
 {% endif %}

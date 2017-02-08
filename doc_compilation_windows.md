@@ -30,7 +30,7 @@ and extract the content of this archive in the TeeUniverse directory.
 
 Your TeeUniverse directory should look like this:
 
-![Screenshot of the TeeUniverse directory](/images/doc/compilation/win-sources.png)
+![Screenshot of the TeeUniverse directory](/images/doc/compilation/win-sources.png){:class="screenshot"}
 
 # Generate the Makefile #
 
@@ -48,7 +48,7 @@ Click on “Generate”.
 
 Your CMake Window should look like this:
 
-![Screenshot of CMake](/images/doc/compilation/win-cmake.png)
+![Screenshot of CMake](/images/doc/compilation/win-cmake.png){:class="screenshot"}
 
 You can now close CMake.
 
