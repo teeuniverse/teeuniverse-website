@@ -1,1 +1,5 @@
-Sitemap: https://teeuniverse.net/sitemap.xml
+---
+permalink: /robots.txt
+excludeFromSitemap: true
+---
+Sitemap: {{site.url}}/sitemap.xml
