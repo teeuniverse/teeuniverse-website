@@ -1,0 +1,21 @@
+---
+permalink: /sitemap.xml
+type: dataset
+creator: Socialdarwinist
+excludeFromSitemap: true
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>{{site.url}}</loc>
+	</url>
+{% for deed in site.pages %}
+{% if deed.permalink != null and deed.excludeFromSitemap != true %}
+	<url>
+		<loc>{{site.url}}{{deed.permalink}}</loc>
+		{% if deed.changefreq != null %}
+		<changefreq>{{deed.changefreq}}</changefreq>
+		{% endif %}
+	</url>{% endif %}{% endfor %}
+</urlset>

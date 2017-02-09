@@ -5,6 +5,7 @@ permalink: /releases/
 type: dataset
 creator: necropotame
 contentdescription: List of the TeeUniverse releases with version history, including links to compressed distributions of their source codes and their binaries
+changefreq: weekly
 ---
 
 {% assign sortedReleases = site.release | sort: 'title' | reverse %}
