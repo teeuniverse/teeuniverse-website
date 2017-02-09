@@ -25,4 +25,4 @@ changefreq: weekly
 # Older releases #
 
 {% for r in sortedReleases %}
-{% if forloop.first == false %}- [{{ r.title }}]({{ site.url }}{{ r.url }}){% endif %}{% endfor %}
+{% if forloop.first == false %}- [{{ r.title }}]({{ r.url }}){% endif %}{% endfor %}
