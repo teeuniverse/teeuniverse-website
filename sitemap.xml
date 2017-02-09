@@ -18,4 +18,12 @@ excludeFromSitemap: true
 		<changefreq>{{deed.changefreq}}</changefreq>
 		{% endif %}
 	</url>{% endif %}{% endfor %}
+{% for pickthattoo in site.release %}
+{% if pickthattoo.url != null and pickthattoo.excludeFromSitemap != true %}
+	<url>
+		<loc>{{site.url}}{{pickthattoo.url}}</loc>
+		{% if pickthattoo.changefreq != null %}
+		<changefreq>{{pickthattoo.changefreq}}</changefreq>
+		{% endif %}
+	</url>{% endif %}{% endfor %}
 </urlset>

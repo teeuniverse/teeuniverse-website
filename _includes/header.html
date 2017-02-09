@@ -5,7 +5,7 @@
 <head>
 
 <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
-<link rel="icon" type="image/png" href="{{site.url}}/images/favicon.png" />
+<link rel="icon" type="image/png" href="/images/favicon.png" />
 {% if page.vanilladescription != nil %}<meta name="description" content="{{page.vanilladescription}}" />{% endif %}
 <link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
 <link rel="profile" href="http://dublincore.org/documents/2008/08/04/dc-html/" />
@@ -25,7 +25,7 @@ body
 {
 	color:#ffffff;
 	font-family: sans-serif;
-	background-image: url("{{site.url}}/images/background.png");
+	background-image: url("/images/background.png");
 	background-repeat: repeat;
 	margin: 0px;
 	padding: 0px;
@@ -221,14 +221,14 @@ nav, header, footer, main
 
 <header id="header">
 <div id="logocropper">
-<img src="{{site.url}}/images/header.png" alt="TeeUniverse logo" id="logo" />
+<img src="/images/header.png" alt="TeeUniverse logo" id="logo" />
 </div>
 <nav id="menu"{% if page.language != nil and page.language != "en" %} xml:lang="en"{% endif %}>
-<a href="{{site.url}}/">Home</a>
-<a href="{{site.url}}/releases/">Releases</a>
-<a href="{{site.url}}/packages/">Packages</a>
-<a href="{{site.url}}/doc/">Documentation</a>
-<a href="{{site.url}}/about/">About</a>
+<a href="/">Home</a>
+<a href="/releases/">Releases</a>
+<a href="/packages/">Packages</a>
+<a href="/doc/">Documentation</a>
+<a href="/about/">About</a>
 </nav>
 </header>
 <main id="main">
