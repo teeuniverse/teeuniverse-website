@@ -1,0 +1,5 @@
+---
+permalink: /robots.txt
+excludeFromSitemap: true
+---
+Sitemap: {{site.url}}/sitemap.xml

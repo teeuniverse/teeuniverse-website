@@ -5,6 +5,7 @@ permalink: /doc/walkthrough/
 creator: Socialdarwinist; necropotame
 contentdescription: Walkthrough through the editor of TeeUniverse, aimed at beginner mappers
 subject: Teeworlds mapping; Ninslash mapping; InfClass mapping; OpenFNG mapping; DDNet mapping; map layer; tileset; Teeworlds tileset; quadrilateral graphics; quad;
+changefreq: monthly
 ---
 
 The following page is intended to contain instructions for familiarizing users with the interfaces of the various components of the TeeUniverse editor.
