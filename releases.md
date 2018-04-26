@@ -11,9 +11,7 @@ changefreq: weekly
 {% assign sortedReleases = site.release | sort: 'title' | reverse %}
 {% assign latestRelease = sortedReleases.first %}
 # {{ latestRelease.title }} (Latest Release) #
-{% markdown %}
 {{ latestRelease.content }}
-{% endmarkdown %}
 
 
 # TeeUniverse cutting edge (Experimental) #
